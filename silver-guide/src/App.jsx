@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-
+const OUTPUT_FORMAT_INSTRUCTION = "";
 const PRIMARY_MODEL = "gemini-3-flash-preview";
 const API_VERSIONS = ["v1", "v1beta"];
 const MAX_RETRIES_ON_503 = 3;
