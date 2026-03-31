@@ -1,3 +1,4 @@
+[hızlı not:features/ dosyamın adı src olarak kalmış , API konusunda problem yaşınırsa kendi kullandığım API yi bir şekilde iletmeye çalışailirim.]
 Gümüş Rehber (Silver Guide)
 Problem
 Günümüz dijital dünyası, "bilgi obezitesi" ve karmaşık bir dil bariyeri ile kuşatılmış durumdadır. Sadece yaşlı bireyler değil; Türkçeyi yeni öğrenenler, okuma güçlüğü çekenler veya yoğun stres altında hızlıca aksiyon alması gereken (hastanede, bankada, acil durumlarda) "zaman yoksulu" bireyler, teknik ve hukuki terminoloji içinde boğulmaktadır. Bu durum, bireylerin dijital hizmetlerden mahrum kalmasına neden olan evrensel bir erişilebilirlik sorunudur.
