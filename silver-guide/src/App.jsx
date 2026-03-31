@@ -4,10 +4,7 @@ const PRIMARY_MODEL = "gemini-3-flash-preview";
 const API_VERSIONS = ["v1", "v1beta"];
 const MAX_RETRIES_ON_503 = 3;
 const PROMPT_PREFIX =
-  "Sen bir sadeleştirme uzmanısın. SADECE Türkçe yaz.tüm metni baştan sona basitleştirmelisin Teknik terim kullanma. Metni yaşlı bir kullanıcının tek başına tamamlayabileceği şekilde net adımlara böl. Sadece başlangıcı değil, işlemin bittiğinin nasıl anlaşılacağını da anlat. Gerekliyse butona basma, onay verme, bekleme ve sonucu kontrol etme adımlarını da ekle. Çok kısa kesme; basit ama yeterince detaylı yaz. Sen bir sadeleştirme uzmanısın. Lütfen sadece insanların okuyabileceği düz metin formatında yanıt ver. JSON veya kod formatı kullanma. Özet ve maddeler şeklinde açıkla:En az 3 adım üret. Boş adım veya yarım adım bırakma. Metin: ";
-const OUTPUT_FORMAT_INSTRUCTION =
-  'Sadece geçerli JSON döndür. Şema: {"steps":["...","..."]}. "steps" dizisindeki her madde tam cümle olsun.';
-
+  "Sen bir sadeleştirme uzmanısın. SADECE Türkçe yaz. Teknik terim kullanma. Metni yaşlıların anlayacağı şekilde maddeler halinde açıkla. Asla JSON veya kod formatı kullanma. Sadece düz metin yaz. Metin: ";
 function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
