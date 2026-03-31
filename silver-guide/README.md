@@ -26,4 +26,6 @@ Uygulama açılınca ekranda **“Gemini API anahtarınızı girin”** alanı v
 
 - “Bu cihazda hatırla” açıksa anahtar tarayıcıda saklanır (localStorage).
 - İsterseniz kapatıp her seferinde manuel girebilirsiniz.
+-bu son olarak kullanı m kolaylıgı için güncellendi değiştirmediğiniz sürece kayıtlı olan api kullanılacak.
+
 
